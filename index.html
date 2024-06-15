@@ -1,51 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prtfolio</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
-<body >
-    
-    <div class="calculator">
-  <form>
-    <div>
-   <input type="text" name="screen" class="display">
+<body>
+  <div class="portfolio-body">
+  <nav>
+    <a href="">About Me</a>
+    <a href="">Skills</a>
+    <a href="">Projects</a>
+    <a href="">Contact</a>
+  </nav>
+  <div class="about">
+    <h1>I'm </h1>
+    <h1>Kalsoom Yousafzai</h1>
+    <h1>A Front End Developer</h1>
+    <div id="myimg">
+    <img src="./images/mypic.jpeg" >
+  </div>
+  </div>
 </div>
-    <div>
-    <input type="button" class="clear" value=C onclick="screen.value =''">
-    <input type="button" class="button" value="/" onclick="screen.value +='/'">  
-    <input type="button" class="button" value="*" onclick="screen.value +='*'">
-</div>
-<div>
-    <input type="button" class="button" value="7" onclick="screen.value +='7'">
-    <input type="button" class="button" value="8" onclick="screen.value +='8'">
-    <input type="button" class="button" value="9" onclick="screen.value +='9'"> 
-    <input type="button" class="button" value="-" onclick="screen.value +='-'">
-</div>
-<div class="modified-plus">
-    <div>
-    <input type="button" class="button" value="4" onclick="screen.value +='4'">
-    <input type="button" class="button" value="5" onclick="screen.value +='5'">
-    <input type="button" class="button" value="6" onclick="screen.value +='6'"> 
-    <input type="button" class="plus" value="+" onclick="screen.value +='+'">
-
-</div>
-<div>
-    <input type="button" class="button" value="1" onclick="screen.value +='1'" >
-    <input type="button" class="button" value="2" onclick="screen.value +='2'">
-    <input type="button" class="button" value="3" onclick="screen.value +='3'">
-</div>
-</div>
-<div>
-    <input type="button" class="button" value="0" onclick="screen.value +='0'">
-    <input type="button" class="button" value="0.0" onclick="screen.value +='0.0'">
-    <input type="button" class="button" value="." onclick="screen.value +='.'">
-    <input type="button" class="button" value="=" onclick="screen.value= eval(screen.value)">
-</div>
-</div>
-  
-  </form>  
 </body>
 </html>
